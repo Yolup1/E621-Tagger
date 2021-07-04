@@ -25,5 +25,5 @@ this is not advised however as it was trained on `128px`, `256px` and `512px`.<b
 ##### Location & Format
 
 By default the model uses png files, if you want to change this,<br>
-please edit `Tag-finder.py` and replace `*.png` with the directory<br>
+please edit `Tagger.py` and replace `source_dir` with the directory<br>
 and file type of your desire.<br>
