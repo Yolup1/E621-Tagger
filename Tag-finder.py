@@ -10,7 +10,7 @@ source_dir = 'source/*.png'
 IMAGE_SIZE = 512
 tags_dir = 'data/Tags.csv';
 weights_dir = 'data/Weights.csv'
-checkpoint_Best_path = 'results/best/CheckPoint.ckpt'
+checkpoint_Best_path = 'model_Weights/cp.ckpt'
 
 
 
@@ -143,12 +143,12 @@ imax = dict()
 
 
 #
-#   Show tags with >= 65% confidence
+#   Show tags with >= 85% confidence
 #
 
 for p,t in zip(predictions.values(),range(len(image))):
     for i,j in zip(p[0],range(50)):
-        if i>0.65:
+        if i>0.85:
             testags[tag_names[j]] = i
 
     isort[t] = sort_dict(testags)
