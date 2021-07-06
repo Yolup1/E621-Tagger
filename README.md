@@ -19,7 +19,7 @@ use in other projects.<br>
 ##### Image Size
 
 You **can** use any image size and disable the auto resizer (`512px`),<br>
-this is not advised however as it was trained on `128px`, `256px` and `512px`.<br>
+this is not advised however as it was trained on `96px`, `128px`, `256px` and `512px`.<br>
 
 
 ##### Location & Format
